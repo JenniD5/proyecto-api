@@ -137,7 +137,7 @@ span {
 
 .icono{
 	position: relative ;
-	top:-30px;
+	top:-30px;   /*para acomodar el icono*/
 	left: -990px;
 	margin:0;
 	width:130px;
