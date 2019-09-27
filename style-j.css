@@ -1,0 +1,452 @@
+/*animacion de menu*/
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 880px;
+	height: 70px;
+	background-color: #34495e;
+	border-radius: 8px;
+    font-size: 0;
+    
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+    cursor: pointer;
+    padding-left: 70px;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 230px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-running, a:nth-child(2):hover~.animation {
+	width: 223px;
+	left: 187px;
+	background-color: #e74c3c;
+}
+nav .start-ended, a:nth-child(3):hover~.animation {
+	width: 170px;
+	left: 386px;
+	background-color: #3498db;
+}
+nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
+	width: 250px;
+	left: 548px;
+	background-color: #9b59b6;
+}
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+
+
+span {
+    color: #2BD6B4;
+}
+.icono{
+	position: relative ;
+	top:-385px;
+	left: -900px;
+	margin:0;
+	width:130px;
+	height:130px;
+	float:inherit;
+	z-index: -100;
+	transform: rotate(-20deg);
+}
+
+
+
+
+/*imagenes y videos*/
+
+
+
+.the100{
+    position: 
+    relative;
+    top: 300px;
+    left: 500px;
+    right: 5px;
+}
+
+.good-doctor{
+    position: relative;
+    top: -110px;
+    right: 250px;
+}
+
+.sabrina-trailer{
+	position: relative;
+	top:-90px;
+	
+	left: 701px;
+	
+}
+
+.game-trailer{
+	position: relative;
+	top:
+	-405px;
+	left: 198px;
+	
+}
+
+.steven-trailer{
+	position: relative;
+	top: -719px;
+	left: -310px;
+
+}
+
+.umbrella-trailer{
+    position: relative;
+    left: -253px;
+    top:-700px;
+}
+
+
+.stranger-trailer{
+    position: relative;
+    left: 500px;
+    top:-1117px;
+}
+
+
+
+
+
+#show-img2{
+	position: relative;
+	left: 5px;
+}
+
+#show-img3{
+	position: relative;
+	top:30px;
+width: 200px;
+height:220px ;
+	left: 5px;
+}
+
+#show-img4{
+	position: relative;
+	top:30px;
+width: 200px;
+height:220px ;
+	left: 5px;
+}
+
+
+
+/*segunda imagen*/
+	#show-img2{
+		position: relative;
+		top:-217px;
+		width: 200px;
+		height:220px ;
+		left: 27px;
+		float: left;
+	
+		}
+		#show-seasons2{
+			position: relative;
+			top:-179px;
+			font-size: 15px;
+			float: left;
+			padding: 15px;
+			display: initial;
+			opacity: 0;
+			color:cyan;
+			margin:0px;
+			left: -154px;
+			font-weight: bold;
+			text-shadow: 
+			2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;		}
+		#show-seasons2:hover{
+			opacity: 1;
+		}
+
+		.show-seasons2{
+			position: relative;
+		}
+
+
+
+/*para la primera imagen */
+
+
+ #season1{
+	position: relative;
+	top:30px;
+	width: 200px;
+	height:220px ;
+ }
+
+
+
+ #show-img{
+	position: relative;;
+	top:30px;
+	width: 200px;
+	height:220px ;	
+	}
+
+
+	.show-seasons1{
+		position: relative;
+	}
+
+
+ #show-seasons1{
+	 position: relative;
+	 top:-170px;
+	 font-size: 15px;
+	 float: left;
+	 padding: 15px;
+	 display: initial;
+	 opacity: 0;
+	 color: #ecf0f1;
+	 margin:0px;
+	 font-weight: bold;
+	 text-shadow: 
+	 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+ }
+ #show-seasons1:hover{
+	 opacity: 1;
+ }
+
+
+ /*tercera imagen*/
+ #show-img3{
+	position: relative;
+	top:-217px;
+	width: 200px;
+	height:220px ;
+	left:-147px;
+	float: left;
+
+	}
+	#show-seasons3{
+		position: relative;
+		top:-169px;
+		font-size: 15px;
+		float: left;
+		padding: 15px;
+		display: initial;
+		opacity: 0;
+		color:white;
+		margin:0px;
+		left: -327px;
+		font-weight: bold;
+		text-shadow: 
+		2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+	}
+	#show-seasons3:hover{
+		opacity: 1;
+	}
+
+	.show-seasons3{
+		position: relative;
+	}
+
+
+	/*cuarta imagen*/
+	
+		#show-img4{
+		position: relative;
+		top:-217px;
+		width: 200px;
+		height:220px ;
+		left:-320px;
+		float: left;
+	
+		}
+		#show-seasons4{
+			position: relative;
+			top:-170px;
+			font-size: 15px;
+			float: left;
+			padding: 15px;
+			display: initial;
+			opacity: 0;
+			color:white;
+			margin:0px;
+			left: -500px;
+			font-weight: bold;
+			text-shadow: 
+			2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+		}
+		#show-seasons4:hover{
+			opacity: 1;
+		}
+	
+		.show-seasons4{
+			position: relative;
+		}
+	
+		.show-seasons4{
+			position: relative;
+		}
+
+
+		/*5ta imagen*/
+
+		
+			#show-img5{
+			position: relative;
+			top:-317px;
+			width: 200px;
+			height:220px ;
+			left:-308px;
+			float: left;
+		
+			}
+			#show-seasons5{
+				position: relative;
+				top:-472px;
+				font-size: 15px;
+				float: left;
+				padding: 15px;
+				display: initial;
+				opacity: 0;
+				color:white;
+				margin:1px;
+				left: 865px;
+				font-weight: bold;
+				text-shadow: 
+				2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+			}
+			#show-seasons5:hover{
+				opacity: 1;
+			}
+		
+			.show-seasons5{
+				position: relative;
+			}
+		
+			.show-seasons5{
+				position: relative;
+			}
+		
+
+			/*6ta imagen*/
+
+			#show-img6{
+			position: relative;
+			top:-535px;
+			width: 200px;
+			height:218px ;
+			left:872px;
+			float: left;
+		
+			}
+			#show-seasons6{
+				position: relative;
+				top:-480px;
+				font-size: 15px;
+				float: left;
+				padding: 15px;
+				display: initial;
+				opacity: 0;
+				color:white;
+				margin:0px;
+				left: 680px;
+				font-weight: bold;
+				text-shadow: 
+				2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+			}
+			#show-seasons6:hover{
+				opacity: 1;
+			}
+		
+			.show-seasons6{
+				position: relative;
+			}
+		
+			.show-seasons6{
+				position: relative;
+			}
+		
+
+			/*7 imagen*/
+			
+			#show-img7{
+				position: relative;
+				top:-535px;
+				width: 200px;
+				height:218px ;
+				left:702px;
+				float: left;
+			
+				}
+				#show-seasons7{
+					position: relative;
+					top:-480px;
+					font-size: 15px;
+					float: left;
+					padding: 15px;
+					display: initial;
+					opacity: 0;
+					color:white;
+					margin:0px;
+					left: 508px;
+					font-weight: bold;
+					text-shadow: 
+					2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+				}
+				#show-seasons7:hover{
+					opacity: 1;
+				}
+			
+				.show-seasons7{
+					position: relative;
+				}
+			
+				.show-seasons7{
+					position: relative;
+				}
+			
