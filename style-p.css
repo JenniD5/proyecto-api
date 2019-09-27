@@ -17,22 +17,37 @@ body{
     font-size: 24px;
     width: 70%;
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-color: grey;
 }
 
 .show-title{
     font-weight: bold;
     color: #E7E7E7;
     font-size: 30px;
+    background: black;
+    text-align: center;
 }
 
 .list{
     margin-left: 40px; 
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .s-img{
     float: left;
     margin-right: 50px;
+    margin: black;
+    margin-left: 50px; 
+    border: 7px solid;
+    border-radius: 10px;
+    border-color: #E7E7E7;
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+
+.s-info{
+    margin-left: 70px;
+    margin-right: 60px; 
 }
 
