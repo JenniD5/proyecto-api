@@ -1,0 +1,99 @@
+/*animacion de menu*/
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 880px;
+	height: 70px;
+	background-color: #34495e;
+	border-radius: 8px;
+    font-size: 0;
+    
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+    cursor: pointer;
+    padding-left: 70px;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 230px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-running, a:nth-child(2):hover~.animation {
+	width: 223px;
+	left: 187px;
+	background-color: #e74c3c;
+}
+nav .start-ended, a:nth-child(3):hover~.animation {
+	width: 170px;
+	left: 386px;
+	background-color: #3498db;
+}
+nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
+	width: 250px;
+	left: 548px;
+	background-color: #9b59b6;
+}
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+
+
+span {
+    color: #2BD6B4;
+}
+.icono{
+	position: relative ;
+	top:-385px;
+	left: -900px;
+	margin:0;
+	width:130px;
+	height:130px;
+	float:inherit;
+	z-index: -100;
+	transform: rotate(-20deg);
+}
