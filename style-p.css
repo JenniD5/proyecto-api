@@ -70,7 +70,7 @@ nav a {
 	color: white;
     cursor: pointer;
 	padding-left: 70px;
-	top:-90px;                 /*para acomodar el menu*/
+	top:-95px;                 /*para acomodar el menu*/
 }
 nav .animation {
 	position: absolute;
@@ -137,8 +137,8 @@ span {
 
 .icono{
 	position: relative ;
-	top:-385px;
-	left: -900px;
+	top:-30px;
+	left: -990px;
 	margin:0;
 	width:130px;
 	height:130px;
