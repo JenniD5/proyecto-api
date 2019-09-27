@@ -8,14 +8,14 @@ body{
 .title{
     font-weight: bold;
     color: Black;
-    font-size: 20px;
+    font-size: 50px;
     background: White;
     background-clip: white;
     text-align: center;
     
 }
 .poster{
- margin-left:5%;
+ margin-left:16%;
 }
 
 .el1{
@@ -23,12 +23,20 @@ body{
     color: Black;
     font-size: 15px;
     background: White;
-    text-align: left;}
+    text-align: left;
+    margin-left:16%;}
 
 .el3{
     font-weight: bold;
     color: Black;
     font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el4{
+    font-weight: bold;
+    color: Black;
+    font-size:35px;
     background: White;
     text-align: left;
 }
@@ -85,15 +93,38 @@ body{
 .info{
     font-weight: bold;
     color: Black;
-    font-size: 15px;
+    font-size: 25px;
     background: White;
-    text-align: left;
+    text-align: center;
 }
 .lista{
-    margin-left: 22%; 
+    margin-left: 2%; 
     margin-right: 12%;
     font-size: 20px;
-    margin-bottom: 40px;
-    margin-top: 5%;
-    background-color: antiquewhite;
+    margin-bottom: 10px;
+    
 }
+
+.dark{
+    position: absolute;
+    top: 2940px;
+    left: 800px;
+    right: 4px;
+}
+.Elite{
+
+}
+.How{} 
+.casa{} 
+.marianne{}
+.River{}
+.snk{}
+.stranger{}
+.the{
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    right: 6px;
+}
+}
+.b99{}
