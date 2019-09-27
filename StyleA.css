@@ -1,14 +1,18 @@
 body{
-    background-color: rgb(141, 26, 26);
+    background-color:#2c3e50;
     margin: 5%;
 }
+
+
 
 .title{
     font-weight: bold;
     color: Black;
     font-size: 20px;
     background: White;
-    text-align: left;
+    background-clip: white;
+    text-align: center;
+    
 }
 .poster{
  margin-left:5%;
