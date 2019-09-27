@@ -335,18 +335,18 @@ const show10Genres = document.getElementById('show10-genres');
 
 
 let getshowData10 = async ()=>{
-    const response19 = await fetch (`${ApiUrl}shows/1128`);
+    const response19 = await fetch (`${ApiUrl}shows/216`);
     const show19 = await response19.json();
     console.log(show19);
-    const {name, rating, summary, genres} = show17;
+    const {name, rating, summary, genres} = show19;
     const img1 = show19.image.medium;
-    const response20 = await fetch(`${ApiUrl}shows/1128/crew`)
+    const response20 = await fetch(`${ApiUrl}shows/216/crew`)
     const show20 = await response20.json();
     console.log(show20);
 
     show10Name.innerText = name;
     show10Img.src = img1;
-    show10Crew.innerHTML = `Creator: ${show18[0].person.name}`;
+    show10Crew.innerHTML = `Creator: ${show20[0].person.name}`;
     show10Rating.innerText = `Rating: ${rating.average}`;
     show10Summary.innerHTML = summary;
 
@@ -355,10 +355,10 @@ let getshowData10 = async ()=>{
     });
 };
 
-getshowData9();
+getshowData10();
 
                                                                             //11
-const show11Name = document.getElementById('show10-name');
+const show11Name = document.getElementById('show11-name');
 const show11Img = document.getElementById('show11-img');
 const show11Crew = document.getElementById('show11-crew');
 const show11Rating = document.getElementById('show11-rating');
@@ -499,24 +499,24 @@ const show15Genres = document.getElementById('show15-genres');
 
 
 let getshowData15 = async ()=>{
-
-    const respose29 = await fetch(`${ApiUrl}shows/919`);
+    
+    const respose29 = await fetch(`${ApiUrl}shows/4`);
     const show29 = await respose29.json();
     console.log(show29);
     const {name,rating,summary,genres} = show29;
     const img1 = show29.image.medium;
-    const respose30 = await fetch(`${ApiUrl}shows/919/crew`);
+    const respose30 = await fetch(`${ApiUrl}shows/4/crew`);
     const show30 = await respose30.json();
     console.log(show30);
 
     show15Name.innerText = name;
     show15Img.src = img1;
-    show15Crew.innerHTML = `Creator: ${show30[0].person.name}`;
+    show15Crew.innerHTML += `Creator: ${show30[0].name}`;
     show15Rating.innerText = `Rating ${rating.average}`;
     show15Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        show15Genres.innerHTML += `<li> ${element}</li>`;
+        show16Genres.innerHTML += `<li> ${element}</li>`;
     });
     };
 
