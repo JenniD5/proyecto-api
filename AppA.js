@@ -115,7 +115,7 @@ let getshowData4 = async ()=>{
     console.log(show7);
     const {name, rating, summary, genres} = show7;
     const img1 = show7.image.medium;
-    const response8 = await fetch(`${ApiUrl}shows/3754/crew`)
+    const response8 = await fetch(`${ApiUrl}shows/37854/crew`)
     const show8 = await response8.json();
     console.log(show8);
 
