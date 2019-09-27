@@ -9,12 +9,12 @@ const showGenres = document.getElementById('show-genres');
 const ApiUrl = 'http://api.tvmaze.com/'; 
 
 let getshowData = async ()=> {
-    const respose = await fetch(`${ApiUrl}shows/1788`);
+    const respose = await fetch(`${ApiUrl}shows/77`);
     const show = await respose.json();
     console.log(show);
     const {name, rating, summary, genres} = show;
     const Img = show.image.medium;
-    const respose2 = await fetch(`${ApiUrl}shows/1788/crew`);
+    const respose2 = await fetch(`${ApiUrl}shows/77/crew`);
     const show2 = await respose2.json();
     console.log(show2);
     console.log(genres[0].genres);
@@ -24,9 +24,9 @@ let getshowData = async ()=> {
 
     showName.innerText = name;
     showImg.src = Img;
-    showCrew.innerHTML= `Creator: ${show2[0].person.name}`;
-    showRating.innerText = `Rating: ${rating.average}`;
-    showSummary.innerHTML = `${summary}`;
+    showCrew.innerHTML= `Creator:   ${show2[0].person.name}`;
+    showRating.innerText = `Rating:   ${rating.average}`;
+    showSummary.innerHTML = summary;
 };
 
 getshowData();
@@ -60,7 +60,7 @@ let getshowData2 = async ()=> {
     show3Img.src = Img;
     show3Crew.innerHTML= `Creator: ${show4[0].person.name}`;
     show3Rating.innerText = `Rating: ${rating.average}`;
-    show3Summary.innerHTML = `${summary}`;
+    show3Summary.innerHTML = summary;
 };
 
 getshowData2();
@@ -94,7 +94,7 @@ let getshowData3 = async ()=> {
     show5Img.src = Img;
     show5Crew.innerHTML= `Creator: ${show6[0].person.name}`;
     show5Rating.innerText = `Rating: ${rating.average}`;
-    show5Summary.innerHTML = `${summary}`;
+    show5Summary.innerHTML = summary;
 };
 
 getshowData3();
@@ -128,7 +128,7 @@ let getshowData4 = async ()=> {
     show7Img.src = Img;
     show7Crew.innerHTML= `Creator: ${show8[0].person.name}`;
     show7Rating.innerText = `Rating: ${rating.average}`;
-    show7Summary.innerHTML = `${summary}`;
+    show7Summary.innerHTML = summary;
 };
 
 getshowData4();
@@ -145,12 +145,12 @@ const show9Genres = document.getElementById('show9-genres');
 
 
 let getshowData5 = async ()=> {
-    const respose9 = await fetch(`${ApiUrl}shows/77`);
+    const respose9 = await fetch(`${ApiUrl}shows/1788`);
     const show9 = await respose9.json();
     console.log(show9);
     const {name, rating, summary, genres} = show9;
     const Img = show9.image.medium;
-    const respose10 = await fetch(`${ApiUrl}shows/77/crew`);
+    const respose10 = await fetch(`${ApiUrl}shows/1788/crew`);
     const show10 = await respose10.json();
     console.log(show10);
     console.log(genres[0].genres);
@@ -162,7 +162,7 @@ let getshowData5 = async ()=> {
     show9Img.src = Img;
     show9Crew.innerHTML= `Creator: ${show10[0].person.name}`;
     show9Rating.innerText = `Rating: ${rating.average}`;
-    show9Summary.innerHTML = `${summary}`;
+    show9Summary.innerHTML = summary;
 };
 
 getshowData5();
@@ -174,7 +174,7 @@ const show11Img = document.getElementById('show11-img');
 const show11Crew = document.getElementById('show11-crew');
 const show11Rating = document.getElementById('show11-rating');
 const show11Language = document.getElementById('show11-language');
-const show11Summary = document.getElementById('sho11-summary');
+const show11Summary = document.getElementById('show11-summary');
 const show11Genres = document.getElementById('show11-genres');
 
 
@@ -196,7 +196,7 @@ let getshowData6 = async ()=> {
     show11Img.src = Img;
     show11Crew.innerHTML= `Creator: ${show12[0].person.name}`;
     show11Rating.innerText = `Rating: ${rating.average}`;
-    show11Summary.innerHTML = `${summary}`;
+    show11Summary.innerHTML = summary;
 };
 
 getshowData6();
@@ -230,7 +230,7 @@ let getshowData7 = async ()=> {
     show13Img.src = Img;
     show13Crew.innerHTML= `Creator: ${show14[0].person.name}`;
     show13Rating.innerText = `Rating: ${rating.average}`;
-    show13Summary.innerHTML = `${summary}`;
+    show13Summary.innerHTML = summary;
 };
 
 getshowData7();
@@ -247,12 +247,12 @@ const show15Genres = document.getElementById('show15-genres');
 
 
 let getshowData8 = async ()=> {
-    const respose15 = await fetch(`${ApiUrl}shows/170`);
+    const respose15 = await fetch(`${ApiUrl}shows/11`);
     const show15 = await respose15.json();
     console.log(show15);
     const {name, rating, summary, genres} = show15;
     const Img = show15.image.medium;
-    const respose16 = await fetch(`${ApiUrl}shows/170/crew`);
+    const respose16 = await fetch(`${ApiUrl}shows/11/crew`);
     const show16 = await respose16.json();
     console.log(show16);
     console.log(genres[0].genres);
@@ -264,7 +264,7 @@ let getshowData8 = async ()=> {
     show15Img.src = Img;
     show15Crew.innerHTML= `Creator: ${show16[0].person.name}`;
     show15Rating.innerText = `Rating: ${rating.average}`;
-    show15Summary.innerHTML = `${summary}`;
+    show15Summary.innerHTML = summary;
 };
 
 getshowData8();
@@ -281,12 +281,12 @@ const show17Genres = document.getElementById('show17-genres');
 
 
 let getshowData9 = async ()=> {
-    const respose17 = await fetch(`${ApiUrl}shows/11`);
+    const respose17 = await fetch(`${ApiUrl}shows/1369`);
     const show17 = await respose17.json();
     console.log(show17);
     const {name, rating, summary, genres} = show17;
     const Img = show17.image.medium;
-    const respose18 = await fetch(`${ApiUrl}shows/11/crew`);
+    const respose18 = await fetch(`${ApiUrl}shows/1369/crew`);
     const show18 = await respose18.json();
     console.log(show18);
     console.log(genres[0].genres);
@@ -298,7 +298,7 @@ let getshowData9 = async ()=> {
     show17Img.src = Img;
     show17Crew.innerHTML= `Creator: ${show18[0].person.name}`;
     show17Rating.innerText = `Rating: ${rating.average}`;
-    show17Summary.innerHTML = `${summary}`;
+    show17Summary.innerHTML = summary;
 };
 
 getshowData9();
@@ -315,12 +315,12 @@ const show19Genres = document.getElementById('show19-genres');
 
 
 let getshowData10 = async ()=> {
-    const respose19 = await fetch(`${ApiUrl}shows/1369`);
+    const respose19 = await fetch(`${ApiUrl}shows/170`);
     const show19 = await respose19.json();
     console.log(show19);
     const {name, rating, summary, genres} = show19;
     const Img = show19.image.medium;
-    const respose20 = await fetch(`${ApiUrl}shows/1369/crew`);
+    const respose20 = await fetch(`${ApiUrl}shows/170/crew`);
     const show20 = await respose20.json();
     console.log(show20);
     console.log(genres[0].genres);
@@ -332,7 +332,7 @@ let getshowData10 = async ()=> {
     show19Img.src = Img;
     show19Crew.innerHTML= `Creator: ${show20[0].person.name}`;
     show19Rating.innerText = `Rating: ${rating.average}`;
-    show19Summary.innerHTML = `${summary}`;
+    show19Summary.innerHTML = summary;
 };
 
 getshowData10();
@@ -366,7 +366,7 @@ let getshowData11 = async ()=> {
     show21Img.src = Img;
     show21Crew.innerHTML= `Creator: ${show22[0].person.name}`;
     show21Rating.innerText = `Rating: ${rating.average}`;
-    show21Summary.innerHTML = `${summary}`;
+    show21Summary.innerHTML = summary;
 };
 
 getshowData11();
@@ -400,7 +400,7 @@ let getshowData12 = async ()=> {
     show23Img.src = Img;
     show23Crew.innerHTML= `Creator: ${show24[0].person.name}`;
     show23Rating.innerText = `Rating: ${rating.average}`;
-    show23Summary.innerHTML = `${summary}`;
+    show23Summary.innerHTML = summary;
 };
 
 getshowData12();
@@ -434,7 +434,7 @@ let getshowData13 = async ()=> {
     show25Img.src = Img;
     show25Crew.innerHTML= `Creator: ${show26[0].person.name}`;
     show25Rating.innerText = `Rating: ${rating.average}`;
-    show25Summary.innerHTML = `${summary}`;
+    show25Summary.innerHTML = summary;
 };
 
 getshowData13();
@@ -468,7 +468,7 @@ let getshowData14 = async ()=> {
     show27Img.src = Img;
     show27Crew.innerHTML= `Creator: ${show28[0].person.name}`;
     show27Rating.innerText = `Rating: ${rating.average}`;
-    show27Summary.innerHTML = `${summary}`;
+    show27Summary.innerHTML = summary;
 };
 
 getshowData14();
@@ -502,7 +502,7 @@ let getshowData15 = async ()=> {
     show29Img.src = Img;
     show29Crew.innerHTML= `Creator: ${show30[0].person.name}`;
     show29Rating.innerText = `Rating: ${rating.average}`;
-    show29Summary.innerHTML = `${summary}`;
+    show29Summary.innerHTML = summary;
 };
 
 getshowData15();
@@ -536,7 +536,7 @@ let getshowData16 = async ()=> {
     show31Img.src = Img;
     show31Crew.innerHTML= `Creator: ${show32[0].person.name}`;
     show31Rating.innerText = `Rating: ${rating.average}`;
-    show31Summary.innerHTML = `${summary}`;
+    show31Summary.innerHTML = summary;
 };
 
 getshowData16();
