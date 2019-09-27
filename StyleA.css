@@ -10,12 +10,8 @@ body{
     background: White;
     text-align: left;
 }
-.t1{
-    font-weight: bold;
-    color: Black;
-    font-size: 15px;
-    background: White;
-    text-align: left;
+.poster{
+ margin-left:5%;
 }
 
 .el1{
