@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(141, 26, 26);
+    margin: 5%;
+}
+
+.t1{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+.el1{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;}
+
+.el3{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el5{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el7{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el9{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el11{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el3{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el5{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+.el7{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.info{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.lista{
+    margin-left: 20px; 
+    margin-bottom: 40px;
+}
