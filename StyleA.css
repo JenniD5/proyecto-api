@@ -1,0 +1,324 @@
+body{
+    background-color:#2c3e50;
+    margin: 5%;
+    background-image: url("f.png");
+}
+
+
+
+.title{
+    font-weight: bold;
+    color: Black;
+    font-size: 50px;
+    background: White;
+    background-clip: white;
+    text-align: center;
+    margin-left:13%;
+    margin-right:13%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 5px rgb(179, 47, 47)
+}
+
+.poster{
+    margin-left:13%;
+    margin-right:13%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 5px
+}
+
+.el1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #E7E7E7;
+    text-align: justify;
+    font-size: 24px;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 230px;
+    margin-right: 230px;}
+
+    .el2{
+        font-weight: bold;
+        color: Black;
+        font-size: 15px;
+        background: White;
+        text-align: left;
+    }
+
+.el3{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el4{
+    font-weight: bold;
+    color: Black;
+    font-size:35px;
+    background: White;
+    text-align: left;
+}
+.el5{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+
+.el3{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el4{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+.el5{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el6{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el7{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el8{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+.el9{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+.el10{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el11{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el12{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el13{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el14{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el15{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}.el16{
+    font-weight: bold;
+    color: Black;
+    font-size: 15px;
+    background: White;
+    text-align: left;
+}
+
+.info{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;;
+    color: Black;
+    font-size: 25px;
+    background: White;
+    text-align: center;
+    margin-left:13%;
+    margin-right:13%;
+    margin-top: 3%;
+}
+.lista{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;;
+    color: Black;
+    font-size: 25px;
+    background: White;
+   
+    margin-right:13%;
+    margin-top: 3%;
+    text-align:left;
+    font-size: 28px;
+    margin-bottom: 10px;
+    
+}
+
+.dark{
+    position: absolute;
+    top: 8660px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.Elite{
+    position: absolute;
+    top: 4630px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.How{
+    position: absolute;
+    top: 3250px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+} 
+.casa{
+    position: absolute;
+    top: 5930px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+} 
+.marianne{
+    position: absolute;
+    top: 16980px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.River{
+    position: absolute;
+    top: 11390px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.doc{
+    position: absolute;
+    top: 18250px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+
+.stranger{
+    position: absolute;
+    top: 1830px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+
+
+.the{
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+
+.b99{position: absolute;
+    top: 7300px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+}
+
+
+.arrow{
+    position: absolute;
+    top: 19590px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.RM{
+    position: absolute;
+    top: 12730px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.ahs{
+    position: absolute;
+    top: 14110px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+    
+}
+.titans{
+    position: absolute;
+    top: 15520px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.eup{
+    position: absolute;
+    top: 9995px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
+.flash{
+    position: absolute;
+    top: 20950px;
+    left: 680px;
+    right: 6px;
+    box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
+    
+}
