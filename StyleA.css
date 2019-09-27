@@ -3,8 +3,8 @@ body{
     margin: 5%;
     background-image: url("f.png");
 }
+/**/
 
-/*animacion de menu*/
 nav {
 	margin: 27px auto 0;
 	position: relative;
@@ -27,7 +27,8 @@ nav a {
 	text-align: center;
 	color: white;
     cursor: pointer;
-    padding-left: 70px;
+	padding-left: 70px;
+	top:-95px;                 /*para acomodar el menu*/
 }
 nav .animation {
 	position: absolute;
@@ -72,6 +73,29 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 	left: 548px;
 	background-color: #9b59b6;
 }
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+
+span {
+    color: #2BD6B4;
+}
+
+.icono{
+	position: relative ;
+	top:-30px;   /*para acomodar el icono*/
+	left: -990px;
+	margin:0;
+	width:130px;
+	height:130px;
+	float:inherit;
+	z-index: -100;
+	transform: rotate(-20deg);
+}
+
+/**/
 
 .title{
     font-weight: bold;
@@ -82,7 +106,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
     text-align: center;
     margin-left:13%;
     margin-right:13%;
-    margin-top: 3%;
+   
     box-shadow: 10px 10px 5px rgb(179, 47, 47)
 }
 
@@ -258,7 +282,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 
 .dark{
     position: absolute;
-    top: 8660px;
+    top: 8500px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -266,7 +290,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .Elite{
     position: absolute;
-    top: 4630px;
+    top: 4600px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -274,7 +298,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .How{
     position: absolute;
-    top: 3250px;
+    top: 3200px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -282,7 +306,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 } 
 .casa{
     position: absolute;
-    top: 5930px;
+    top: 5830px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -290,7 +314,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 } 
 .marianne{
     position: absolute;
-    top: 16980px;
+    top: 16630px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -298,7 +322,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .River{
     position: absolute;
-    top: 11390px;
+    top: 11150px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -306,7 +330,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .doc{
     position: absolute;
-    top: 18250px;
+    top: 17850px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -325,7 +349,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 
 .the{
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -333,7 +357,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 
 .b99{position: absolute;
-    top: 7300px;
+    top: 7150px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -342,7 +366,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 
 .arrow{
     position: absolute;
-    top: 19590px;
+    top: 19150px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -350,7 +374,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .RM{
     position: absolute;
-    top: 12730px;
+    top: 12460px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -358,7 +382,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .ahs{
     position: absolute;
-    top: 14110px;
+    top: 13810px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -367,7 +391,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .titans{
     position: absolute;
-    top: 15520px;
+    top: 15220px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -375,7 +399,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .eup{
     position: absolute;
-    top: 9995px;
+    top: 9795px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
@@ -383,7 +407,7 @@ nav .start-Tobedetermied, a:nth-child(4):hover~.animation {
 }
 .flash{
     position: absolute;
-    top: 20950px;
+    top: 20450px;
     left: 680px;
     right: 6px;
     box-shadow: 5px 5px 5px rgba(253, 253, 253, 0.5)
