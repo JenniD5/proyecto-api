@@ -365,7 +365,7 @@ let getshowData10 = async ()=>{
 getshowData9();
 
                                                                             //11
-                                                                            const show10Name = document.getElementById('show10-name');
+const show11Name = document.getElementById('show10-name');
 const show11Img = document.getElementById('show11-img');
 const show11Crew = document.getElementById('show11-crew');
 const show11Rating = document.getElementById('show11-rating');
@@ -554,7 +554,7 @@ let getshowData16 = async ()=>{
     show16Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres15.innerHTML += `<li>${element}</li>`;
+        showGenres16.innerHTML += `<li>${element}</li>`;
     });
 };
 
