@@ -478,7 +478,7 @@ let getshowData14 = async ()=>{
 
     show14Name.innerText = name;
     show14Img.src = img1;
-    show14Crew.innerHTML = `Creator: ${show27[0].person.name}`;
+    show14Crew.innerHTML = `Creator: ${show28[0].person.name}`;
     show14Rating.innerText = `Rating: ${rating.average}`;
     show14Summary.innerHTML = summary;
 
@@ -499,56 +499,60 @@ const show15Genres = document.getElementById('show15-genres');
 
 
 let getshowData15 = async ()=>{
-    const response29 = await fetch (`${ApiUrl}shows/919`);
-    const show29 = await response29.json();
+
+    const respose29 = await fetch(`${ApiUrl}shows/919`);
+    const show29 = await respose29.json();
     console.log(show29);
-    const {name, rating, summary, genres} = show29;
+    const {name,rating,summary,genres} = show29;
     const img1 = show29.image.medium;
-    const response30 = await fetch(`${ApiUrl}shows/919/crew`)
-    const show30 = await response30.json();
+    const respose30 = await fetch(`${ApiUrl}shows/919/crew`);
+    const show30 = await respose30.json();
     console.log(show30);
 
     show15Name.innerText = name;
     show15Img.src = img1;
     show15Crew.innerHTML = `Creator: ${show30[0].person.name}`;
-    show15Rating.innerText = `Rating: ${rating.average}`;
+    show15Rating.innerText = `Rating ${rating.average}`;
     show15Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        show15Genres.innerHTML += `<li>${element}</li>`;
+        show15Genres.innerHTML += `<li> ${element}</li>`;
     });
-};
+    };
+
+
 
 getshowData15();
 
 const show16Name = document.getElementById('show16-name');
 const show16Img = document.getElementById('show16-img');
 const show16Crew = document.getElementById('show16-crew');
-const show165Rating = document.getElementById('show16-rating');
+const show16Rating = document.getElementById('show16-rating');
 const show16Language = document.getElementById('show16-language');
 const show16Summary = document.getElementById('show16-summary');
 const show16Genres = document.getElementById('show16-genres');
 
 
 let getshowData16 = async ()=>{
-    const response31 = await fetch (`${ApiUrl}shows/13`);
-    const show31 = await response31.json();
+    
+    const respose31 = await fetch(`${ApiUrl}shows/13`);
+    const show31 = await respose31.json();
     console.log(show31);
-    const {name, rating, summary, genres} = show31;
+    const {name,rating,summary,genres} = show31;
     const img1 = show31.image.medium;
-    const response32 = await fetch(`${ApiUrl}shows/13/crew`)
-    const show32 = await response32.json();
+    const respose32 = await fetch(`${ApiUrl}shows/13/crew`);
+    const show32 = await respose32.json();
     console.log(show32);
 
     show16Name.innerText = name;
     show16Img.src = img1;
-    show16Crew.innerHTML = `Creator: ${show32[0].person.name}`;
-    show16Rating.innerText = `Rating: ${rating.average}`;
+    show16Crew.innerHTML += `Creator: ${show32[0].person.name}`;
+    show16Rating.innerText = `Rating ${show31.rating.average}`;
     show16Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        show16Genres.innerHTML += `<li>${element}</li>`;
+        show16Genres.innerHTML += `<li> ${element}</li>`;
     });
-};
+    };
 
 getshowData16();
