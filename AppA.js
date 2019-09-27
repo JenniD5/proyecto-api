@@ -202,7 +202,7 @@ let getshowData6 = async ()=>{
 
     show6Name.innerText = name;
     show6Img.src = img1;
-    show6Crew.innerHTML = `Creator: ${sho12[0].person.name}`;
+    show6Crew.innerHTML = `Creator: ${show12[0].person.name}`;
     show6Rating.innerText = `Rating: ${rating.average}`;
     show6Summary.innerHTML = summary;
 
@@ -242,7 +242,7 @@ let getshowData7 = async ()=>{
 
     show7Name.innerText = name;
     show7Img.src = img1;
-    show7Crew.innerHTML = `Creator: ${sho14[0].person.name}`;
+    show7Crew.innerHTML = `Creator: ${show14[0].person.name}`;
     show7Rating.innerText = `Rating: ${rating.average}`;
     show7Summary.innerHTML = summary;
 
@@ -282,7 +282,7 @@ let getshowData8 = async ()=>{
 
     show8Name.innerText = name;
     show8Img.src = img1;
-    show8Crew.innerHTML = `Creator: ${sho16[0].person.name}`;
+    show8Crew.innerHTML = `Creator: ${show16[0].person.name}`;
     show8Rating.innerText = `Rating: ${rating.average}`;
     show8Summary.innerHTML = summary;
 
