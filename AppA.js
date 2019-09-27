@@ -25,7 +25,7 @@ let getshowData1 = async ()=> {
     show1Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres.innerHTML += `<li>${element}</li>`;
+        show1Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -59,7 +59,7 @@ let getshowData2 = async ()=>{
     show2Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres2.innerHTML += `<li>${element}</li>`;
+        show2Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -93,7 +93,7 @@ let getshowData3 = async ()=>{
     show3Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres3.innerHTML += `<li>${element}</li>`;
+        show3Genres.innerHTML += `<li>${element}</li>`;
     });
 }; 
 
@@ -114,26 +114,19 @@ let getshowData4 = async ()=>{
     const show7 = await response7.json();
     console.log(show7);
     const {name, rating, summary, genres} = show7;
-    const img1 = show5.image.medium;
+    const img1 = show7.image.medium;
     const response8 = await fetch(`${ApiUrl}shows/3754/crew`)
     const show8 = await response8.json();
     console.log(show8);
 
-    /*
-    console.log(genres[0].genres);
-    genres.forEach(element => {
-        showGenres.innerHTML += `<li>${element}</li>`;
-    });
-    */
-
     show4Name.innerText = name;
     show4Img.src = img1;
-    show4Crew.innerHTML = `Creator: ${show8[8].person.name}`;
+    show4Crew.innerHTML = `Creator: ${show8[0].person.name}`;
     show4Rating.innerText = `Rating: ${rating.average}`;
     show4Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres4.innerHTML += `<li>${element}</li>`;
+        show4Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -169,12 +162,12 @@ let getshowData5 = async ()=>{
 
     show5Name.innerText = name;
     show5Img.src = img1;
-    show5Crew.innerHTML = `Creator: ${sho10[0].person.name}`;
+    show5Crew.innerHTML = `Creator: ${show10[0].person.name}`;
     show5Rating.innerText = `Rating: ${rating.average}`;
     show5Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres5.innerHTML += `<li>${element}</li>`;
+        show5Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -214,7 +207,7 @@ let getshowData6 = async ()=>{
     show6Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres6.innerHTML += `<li>${element}</li>`;
+        show6Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -254,7 +247,7 @@ let getshowData7 = async ()=>{
     show7Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres7.innerHTML += `<li>${element}</li>`;
+        show7Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -294,7 +287,7 @@ let getshowData8 = async ()=>{
     show8Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres8.innerHTML += `<li>${element}</li>`;
+        show8Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -326,7 +319,7 @@ let getshowData9 = async ()=>{
     show9Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres9.innerHTML += `<li>${element}</li>`;
+        show9Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -358,7 +351,7 @@ let getshowData10 = async ()=>{
     show10Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres10.innerHTML += `<li>${element}</li>`;
+        show10Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -391,7 +384,7 @@ let getshowData11 = async ()=>{
     show11Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres11.innerHTML += `<li>${element}</li>`;
+        show11Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -406,7 +399,7 @@ const show12Summary = document.getElementById('show12-summary');
 const show12Genres = document.getElementById('show12-genres');
 
 
-let getshowData12 = async ()=>{
+let getshowData12 = async ()=> {
     const response23 = await fetch (`${ApiUrl}shows/27557`);
     const show23 = await response23.json();
     console.log(show23);
@@ -418,12 +411,12 @@ let getshowData12 = async ()=>{
 
     show12Name.innerText = name;
     show12Img.src = img1;
-    show12Crew.innerHTML = `Creator: ${show24[0].person.name}`;
+    show12Crew.innerHTML = `Creator: ${show24[29].person.name}`;
     show12Rating.innerText = `Rating: ${rating.average}`;
     show12Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres12.innerHTML += `<li>${element}</li>`;
+        show12Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -441,7 +434,7 @@ const show13Genres = document.getElementById('show13-genres');
 
 let getshowData13 = async ()=>{
     const response25 = await fetch (`${ApiUrl}shows/42586`);
-    const show25 = await response23.json();
+    const show25 = await response25.json();
     console.log(show25);
     const {name, rating, summary, genres} = show25;
     const img1 = show25.image.medium;
@@ -456,7 +449,7 @@ let getshowData13 = async ()=>{
     show13Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres13.innerHTML += `<li>${element}</li>`;
+        show13Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -490,7 +483,7 @@ let getshowData14 = async ()=>{
     show14Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres14.innerHTML += `<li>${element}</li>`;
+        show14Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -522,7 +515,7 @@ let getshowData15 = async ()=>{
     show15Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres15.innerHTML += `<li>${element}</li>`;
+        show15Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
@@ -554,7 +547,7 @@ let getshowData16 = async ()=>{
     show16Summary.innerHTML = summary;
 
     genres.forEach(element => {
-        showGenres16.innerHTML += `<li>${element}</li>`;
+        show16Genres.innerHTML += `<li>${element}</li>`;
     });
 };
 
