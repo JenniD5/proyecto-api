@@ -97,3 +97,343 @@ span {
 	z-index: -100;
 	transform: rotate(-20deg);
 }
+
+
+
+
+/*imagenes y videos*/
+
+
+
+.the100{
+    position: 
+    relative;
+    top: 300px;
+    left: 500px;
+    right: 5px;
+}
+
+.good-doctor{
+    position: relative;
+    top: -110px;
+    right: 250px;
+}
+
+.sabrina-trailer{
+	position: relative;
+	top:-90px;
+	
+	left: 678px;
+	
+}
+
+.game-trailer{
+	position: relative;
+	top:
+	-405px;
+	left: 170px;
+	
+}
+
+.steven-trailer{
+	position: relative;
+	top: -405px;
+	left: 1px;
+
+}
+
+
+
+
+
+#show-img2{
+	position: relative;
+	left: 5px;
+}
+
+#show-img3{
+	position: relative;
+	top:30px;
+width: 200px;
+height:220px ;
+	left: 5px;
+}
+
+#show-img4{
+	position: relative;
+	top:30px;
+width: 200px;
+height:220px ;
+	left: 5px;
+}
+
+
+
+/*segunda imagen*/
+	#show-img2{
+		position: relative;
+		top:-217px;
+		width: 200px;
+		height:220px ;
+		left: 27px;
+		float: left;
+	
+		}
+		#show-seasons2{
+			position: relative;
+			top:-179px;
+			font-size: 15px;
+			float: left;
+			padding: 15px;
+			display: initial;
+			opacity: 0;
+			color:cyan;
+			margin:0px;
+			left: -154px;
+			font-weight: bold;
+			text-shadow: 
+			2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;		}
+		#show-seasons2:hover{
+			opacity: 1;
+		}
+
+		.show-seasons2{
+			position: relative;
+		}
+
+
+
+/*para la primera imagen */
+
+
+ #season1{
+	position: relative;
+	top:30px;
+	width: 200px;
+	height:220px ;
+ }
+
+
+
+ #show-img{
+	position: relative;;
+	top:30px;
+	width: 200px;
+	height:220px ;	
+	}
+
+
+	.show-seasons1{
+		position: relative;
+	}
+
+
+ #show-seasons1{
+	 position: relative;
+	 top:-170px;
+	 font-size: 15px;
+	 float: left;
+	 padding: 15px;
+	 display: initial;
+	 opacity: 0;
+	 color: #ecf0f1;
+	 margin:0px;
+	 font-weight: bold;
+	 text-shadow: 
+	 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+ }
+ #show-seasons1:hover{
+	 opacity: 1;
+ }
+
+
+ /*tercera imagen*/
+ #show-img3{
+	position: relative;
+	top:-217px;
+	width: 200px;
+	height:220px ;
+	left:-147px;
+	float: left;
+
+	}
+	#show-seasons3{
+		position: relative;
+		top:-169px;
+		font-size: 15px;
+		float: left;
+		padding: 15px;
+		display: initial;
+		opacity: 0;
+		color:white;
+		margin:0px;
+		left: -327px;
+		font-weight: bold;
+		text-shadow: 
+		2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+	}
+	#show-seasons3:hover{
+		opacity: 1;
+	}
+
+	.show-seasons3{
+		position: relative;
+	}
+
+
+	/*cuarta imagen*/
+	
+		#show-img4{
+		position: relative;
+		top:-217px;
+		width: 200px;
+		height:220px ;
+		left:-320px;
+		float: left;
+	
+		}
+		#show-seasons4{
+			position: relative;
+			top:-170px;
+			font-size: 15px;
+			float: left;
+			padding: 15px;
+			display: initial;
+			opacity: 0;
+			color:white;
+			margin:0px;
+			left: -500px;
+			font-weight: bold;
+			text-shadow: 
+			2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+		}
+		#show-seasons4:hover{
+			opacity: 1;
+		}
+	
+		.show-seasons4{
+			position: relative;
+		}
+	
+		.show-seasons4{
+			position: relative;
+		}
+
+
+		/*5ta imagen*/
+
+		
+			#show-img5{
+			position: relative;
+			top:-317px;
+			width: 200px;
+			height:220px ;
+			left:-308px;
+			float: left;
+		
+			}
+			#show-seasons5{
+				position: relative;
+				top:-472px;
+				font-size: 15px;
+				float: left;
+				padding: 15px;
+				display: initial;
+				opacity: 0;
+				color:white;
+				margin:1px;
+				left: 865px;
+				font-weight: bold;
+				text-shadow: 
+				2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+			}
+			#show-seasons5:hover{
+				opacity: 1;
+			}
+		
+			.show-seasons5{
+				position: relative;
+			}
+		
+			.show-seasons5{
+				position: relative;
+			}
+		
+
+			/*6ta imagen*/
+
+			#show-img6{
+			position: relative;
+			top:-535px;
+			width: 200px;
+			height:218px ;
+			left:872px;
+			float: left;
+		
+			}
+			#show-seasons6{
+				position: relative;
+				top:-480px;
+				font-size: 15px;
+				float: left;
+				padding: 15px;
+				display: initial;
+				opacity: 0;
+				color:white;
+				margin:0px;
+				left: 680px;
+				font-weight: bold;
+				text-shadow: 
+				2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+			}
+			#show-seasons6:hover{
+				opacity: 1;
+			}
+		
+			.show-seasons6{
+				position: relative;
+			}
+		
+			.show-seasons6{
+				position: relative;
+			}
+		
+
+			/*7 imagen*/
+			
+			#show-img7{
+				position: relative;
+				top:-535px;
+				width: 200px;
+				height:218px ;
+				left:702px;
+				float: left;
+			
+				}
+				#show-seasons7{
+					position: relative;
+					top:-480px;
+					font-size: 15px;
+					float: left;
+					padding: 15px;
+					display: initial;
+					opacity: 0;
+					color:white;
+					margin:0px;
+					left: 508px;
+					font-weight: bold;
+					text-shadow: 
+					2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;	
+				}
+				#show-seasons7:hover{
+					opacity: 1;
+				}
+			
+				.show-seasons7{
+					position: relative;
+				}
+			
+				.show-seasons7{
+					position: relative;
+				}
+			
